@@ -9,7 +9,7 @@ Plusieurs paramètres sont à préciser :
   - Le chemin source
   - Le Chemin cible
   - L'archivage ou non du fichier (0/1)
-  - Le chemin des logs
+  - Repertoire du fichier logs
   - Les informations du serveur cible :
                       - USER
                       - MOT DE PASSE
@@ -28,3 +28,14 @@ Il va d'abord (si l'archivage à été choisit) copier le fichier dans l'archive
 L'utilisation de sous fonction permet de pouvoir être libre lors du choix des paramètres de l'envoi du fichier. Et choisir que les actions qu'il souhaite effectuer. Comme l'achivage par exemple.
 Cela permet de rendre le code universel pour une autre utilisation sur d'autres serveurs.
 
+
+#LES SOUS FONCTIONS :
+La premiere sous fonction : LES VERIFICATIONS
+  Elle permet de vérifier l'existence du répertoire et la présence du fichier dans le répertoire.
+  
+La seconde fonction : L'ARCHIVAGE 
+  Elle copie en local le fichier en modifiant le nom (HH MM JJ MM AA + NOM DU FICHIER) vers le fichier ARCHIVE (précisé en paramètre) 
+ 
+La derniere sous fonction : LE TRANSFERT 
+  Connexion FTP grace aux paramètres entrés. Puis envoi du fichier vers le serveur distant.
+  
