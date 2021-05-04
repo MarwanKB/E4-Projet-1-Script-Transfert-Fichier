@@ -2,7 +2,7 @@
 ## Présentation 
 Le but de ce SCRIPT est de transférer les fichier d'un serveur A vers un serveur B via le protocole FTP en entrant plusieurs paramètres
 
-LE SCRIPT SE TROUVE DANS : /adminSio/Documents/ProjetE4/Script.sh
+LE SCRIPT SE TROUVE DANS : /adminSio/Documents/ProjetE4/Script.sh sue la MACHINE P04
 
 ## LES PARAMETRES EN ENTREE : 
 
