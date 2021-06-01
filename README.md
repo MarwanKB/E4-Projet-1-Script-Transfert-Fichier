@@ -31,7 +31,7 @@ L'utilisation de sous fonction permet de pouvoir être libre lors du choix des p
 Cela permet de rendre le code universel pour une autre utilisation sur d'autres serveurs.
 
 
-#LES SOUS FONCTIONS :
+# LES SOUS FONCTIONS :
 La premiere sous fonction : LES VERIFICATIONS
   Elle permet de vérifier l'existence du répertoire et la présence du fichier dans le répertoire.
   
@@ -41,6 +41,6 @@ La seconde fonction : L'ARCHIVAGE
 La derniere sous fonction : LE TRANSFERT 
   Connexion FTP grace aux paramètres entrés. Puis envoi du fichier vers le serveur distant.
   
-##ADAPTATION POUR L'EPREUVE :
+# ADAPTATION POUR L'EPREUVE :
 Suite à l'installation d'un serveur FTP sur le serveur de réception le chemin cible du transfert à été renseigné directement sur l'interface du serveur FTP
 Il n'est donc plus la peine de naviguer sur le serveur avec les fonction DIR / CD...
