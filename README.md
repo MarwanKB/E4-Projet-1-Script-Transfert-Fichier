@@ -41,6 +41,6 @@ La seconde fonction : L'ARCHIVAGE
 La derniere sous fonction : LE TRANSFERT 
   Connexion FTP grace aux paramètres entrés. Puis envoi du fichier vers le serveur distant.
   
-# ADAPTATION POUR L'EPREUVE :
+## ADAPTATION POUR L'EPREUVE :
 Suite à l'installation d'un serveur FTP sur le serveur de réception le chemin cible du transfert à été renseigné directement sur l'interface du serveur FTP
 Il n'est donc plus la peine de naviguer sur le serveur avec les fonction DIR / CD...
