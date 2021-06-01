@@ -21,8 +21,8 @@ Plusieurs paramètres sont à préciser :
 
 ## LE FONCTIONNEMENT  : 
 
-Après avoir préciser les paramètres, le script vas vérifier l'existence du chemin et la présence du fichier à ce chemin.
-Il va d'abord (si l'archivage à été choisit) copier le fichier dans l'archive, puis effectuer la connexion FTP vers le serveur avec les paramètres entrés précédemment et enfin déposer le fichier vers le chemin cible.
+Après avoir préciser les paramètres, le script va vérifier l'existence du chemin et la présence du fichier à ce chemin.
+Il va d'abord (si l'archivage à été choisit) copier le fichier dans l'archive en effectuant un Horodatage, puis effectuer la connexion FTP vers le serveur avec les paramètres entrés précédemment et enfin déposer le fichier vers le chemin cible.
 
 
 ## L'UTILISATION DE SOUS FONCTION : 
@@ -41,3 +41,6 @@ La seconde fonction : L'ARCHIVAGE
 La derniere sous fonction : LE TRANSFERT 
   Connexion FTP grace aux paramètres entrés. Puis envoi du fichier vers le serveur distant.
   
+##ADAPTATION POUR L'EPREUVE :
+Suite à l'installation d'un serveur FTP sur le serveur de réception le chemin cible du transfert à été renseigné directement sur l'interface du serveur FTP
+Il n'est donc plus la peine de naviguer sur le serveur avec les fonction DIR / CD...
